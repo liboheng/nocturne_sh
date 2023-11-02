@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# 拉取最新的 Docker 镜像
-sudo docker pull mylovedocker/nocturne:latest
-
 # 获取用户输入的容器数量
 read -p "请输入你想要启动的容器数量: " container_count
 
